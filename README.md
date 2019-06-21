@@ -44,7 +44,7 @@ This project is made using [IntelliJ IDEA](https://www.jetbrains.com/idea/downlo
     
 #### Others
     -Simply copy [src] ans [res] folder to your project.
-    
+    -Make sure you download and import Gson jar file. 
 
 
 
