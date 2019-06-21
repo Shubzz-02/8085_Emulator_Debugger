@@ -66,7 +66,7 @@ Simply fork this repository and start committing for other operands of 8085.
 
 ## ScreenShots
 
-![Alt text](/ScreenShots/1.png "1.png")
+![Alt text](/ScreenShots/1.png "1.png" | 24*48)
 ![Alt text](/ScreenShots/2.png "2.png")
 ![Alt text](/ScreenShots/3.png "3.png")
 
