@@ -67,5 +67,6 @@ Simply fork this repository and start committing for other operands of 8085.
 License
 ----
 
-
+##ScreenShots
+![Alt text](/ScreenShots/1.png "1.png")
 
