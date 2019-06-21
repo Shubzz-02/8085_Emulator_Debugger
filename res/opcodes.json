@@ -1,0 +1,1232 @@
+[
+  {
+    "mnemonics": "ACI Data",
+    "operand": "CE",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "ADC A",
+    "operand": "8F",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADC B",
+    "operand": "88",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADC C",
+    "operand": "89",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADC D",
+    "operand": "8A",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADC E",
+    "operand": "8B",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADC H",
+    "operand": "8C",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADC L",
+    "operand": "8D",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADC M",
+    "operand": "8E",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADD A",
+    "operand": "87",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADD B",
+    "operand": "80",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADD C",
+    "operand": "81",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADD D",
+    "operand": "82",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADD E",
+    "operand": "83",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADD H",
+    "operand": "84",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADD L",
+    "operand": "85",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADD M",
+    "operand": "86",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ADI Data",
+    "operand": "C6",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "ANA A",
+    "operand": "A7",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ANA B",
+    "operand": "A0",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ANA C",
+    "operand": "A1",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ANA D",
+    "operand": "A2",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ANA E",
+    "operand": "A3",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ANA H",
+    "operand": "A4",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ANA L",
+    "operand": "A5",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ANA M",
+    "operand": "A6",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ANI Data",
+    "operand": "E6",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "CALL Label",
+    "operand": "CD",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "CC Label",
+    "operand": "DC",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "CM Label",
+    "operand": "FC",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "CMA",
+    "operand": "2F",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "CMC",
+    "operand": "3F",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "CMP A",
+    "operand": "BF",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "CMP B",
+    "operand": "B8",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "CMP C",
+    "operand": "B9",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "CMP D",
+    "operand": "BA",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "CMP E",
+    "operand": "BB",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "CMP H",
+    "operand": "BC",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "CMP L",
+    "operand": "BD",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "CMP M",
+    "operand": "BD",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "CNC Label",
+    "operand": "D4",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "CNZ Label",
+    "operand": "C4",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "CP Label",
+    "operand": "F4",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "CPE Label",
+    "operand": "EC",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "CPI Data",
+    "operand": "FE",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "CPO Label",
+    "operand": "E4",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "CZ Label",
+    "operand": "CC",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "DAA",
+    "operand": "27",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DAD B",
+    "operand": "09",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DAD D",
+    "operand": "19",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DAD H",
+    "operand": "29",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DAD SP",
+    "operand": "39",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DCR A",
+    "operand": "3D",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DCR B",
+    "operand": "05",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DCR C",
+    "operand": "0D",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DCR D",
+    "operand": "15",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DCR E",
+    "operand": "1D",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DCR H",
+    "operand": "25",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DCR L",
+    "operand": "2D",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DCR M",
+    "operand": "35",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DCX B",
+    "operand": "0B",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DCX D",
+    "operand": "1B",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DCX H",
+    "operand": "2B",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DCX SP",
+    "operand": "3B",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "DI",
+    "operand": "F3",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "EI",
+    "operand": "FB",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "HLT",
+    "operand": "76",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "IN Port-address",
+    "operand": "DB",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "INR A",
+    "operand": "3C",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "INR B",
+    "operand": "04",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "INR C",
+    "operand": "0C",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "INR D",
+    "operand": "14",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "INR E",
+    "operand": "1C",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "INR H",
+    "operand": "24",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "INR L",
+    "operand": "2C",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "INR M",
+    "operand": "34",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "INX B",
+    "operand": "03",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "INX D",
+    "operand": "13",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "INX H",
+    "operand": "23",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "INX SP",
+    "operand": "33",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "JC Label",
+    "operand": "DA",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "JM Label",
+    "operand": "FA",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "JMP Label",
+    "operand": "C3",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "JNC Label",
+    "operand": "D2",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "JNZ Label",
+    "operand": "C2",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "JP Label",
+    "operand": "F2",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "JPE Label",
+    "operand": "EA",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "JPO Label",
+    "operand": "E2",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "JZ Label",
+    "operand": "CA",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "LDA Address",
+    "operand": "3A",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "LDAX B",
+    "operand": "0A",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "LDAX D",
+    "operand": "1A",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "LHLD Address",
+    "operand": "2A",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "LXI B",
+    "operand": "01",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "LXI D",
+    "operand": "11",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "LXI H",
+    "operand": "21",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "LXI SP",
+    "operand": "31",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "MOV A, A",
+    "operand": "7F",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV A, B",
+    "operand": "78",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV A, C",
+    "operand": "79",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV A, D",
+    "operand": "7A",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV A, E",
+    "operand": "7B",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV A, H",
+    "operand": "7C",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV A, L",
+    "operand": "7D",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV A, M",
+    "operand": "7E",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV B, A",
+    "operand": "47",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV B, B",
+    "operand": "40",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV B, C",
+    "operand": "41",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV B, D",
+    "operand": "42",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV B, E",
+    "operand": "43",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV B, H",
+    "operand": "44",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV B, L",
+    "operand": "45",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV B, M",
+    "operand": "46",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV C, A",
+    "operand": "4F",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV C, B",
+    "operand": "48",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV C, C",
+    "operand": "49",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV C, D",
+    "operand": "4A",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV C, E",
+    "operand": "4B",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV C, H",
+    "operand": "4C",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV C, L",
+    "operand": "4D",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV C, M",
+    "operand": "4E",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV D, A",
+    "operand": "57",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV D, B",
+    "operand": "50",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV D, C",
+    "operand": "51",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV D, D",
+    "operand": "52",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV D, E",
+    "operand": "53",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV D, H",
+    "operand": "54",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV D, L",
+    "operand": "55",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV D, M",
+    "operand": "56",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV E, A",
+    "operand": "5F",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV E, B",
+    "operand": "58",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV E, C",
+    "operand": "59",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV E, D",
+    "operand": "5A",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV E, E",
+    "operand": "5B",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV E, H",
+    "operand": "5C",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV E, L",
+    "operand": "5D",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV E, M",
+    "operand": "5E",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV H, A",
+    "operand": "67",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV H, B",
+    "operand": "60",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV H, C",
+    "operand": "61",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV H, D",
+    "operand": "62",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV H, E",
+    "operand": "63",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV H, H",
+    "operand": "64",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV H, L",
+    "operand": "65",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV H, M",
+    "operand": "66",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV L, A",
+    "operand": "6F",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV L, B",
+    "operand": "68",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV L, C",
+    "operand": "69",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV L, D",
+    "operand": "6A",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV L, E",
+    "operand": "6B",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV L, H",
+    "operand": "6C",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV L, L",
+    "operand": "6D",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV L, M",
+    "operand": "6E",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV M, A",
+    "operand": "77",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV M, B",
+    "operand": "70",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV M, C",
+    "operand": "71",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV M, D",
+    "operand": "72",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV M, E",
+    "operand": "73",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV M, H",
+    "operand": "74",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MOV M, L",
+    "operand": "75",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "MVI A, Data",
+    "operand": "3E",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "MVI B, Data",
+    "operand": "06",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "MVI C, Data",
+    "operand": "0E",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "MVI D, Data",
+    "operand": "16",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "MVI E, Data",
+    "operand": "1E",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "MVI H, Data",
+    "operand": "26",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "MVI L, Data",
+    "operand": "2E",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "MVI M, Data",
+    "operand": "36",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "NOP",
+    "operand": "00",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ORA A",
+    "operand": "B7",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ORA B",
+    "operand": "B0",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ORA C",
+    "operand": "B1",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ORA D",
+    "operand": "B2",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ORA E",
+    "operand": "B3",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ORA H",
+    "operand": "B4",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ORA L",
+    "operand": "B5",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ORA M",
+    "operand": "B6",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "ORI Data",
+    "operand": "F6",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "OUT Port-Address",
+    "operand": "D3",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "PCHL",
+    "operand": "E9",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "POP B",
+    "operand": "C1",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "POP D",
+    "operand": "D1",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "POP H",
+    "operand": "E1",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "POP PSW",
+    "operand": "F1",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "PUSH B",
+    "operand": "C5",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "PUSH D",
+    "operand": "D5",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "PUSH H",
+    "operand": "E5",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "PUSH PSW",
+    "operand": "F5",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RAL",
+    "operand": "17",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RAR",
+    "operand": "1F",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RC",
+    "operand": "D8",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RET",
+    "operand": "C9",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RIM",
+    "operand": "20",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RLC",
+    "operand": "07",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RM",
+    "operand": "F8",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RNC",
+    "operand": "D0",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RNZ",
+    "operand": "C0",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RP",
+    "operand": "F0",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RPE",
+    "operand": "E8",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RPO",
+    "operand": "E0",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RRC",
+    "operand": "0F",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RST 0",
+    "operand": "C7",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RST 1",
+    "operand": "CF",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RST 2",
+    "operand": "D7",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RST 3",
+    "operand": "DF",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RST 4",
+    "operand": "E7",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RST 5",
+    "operand": "EF",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RST 6",
+    "operand": "F7",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RST 7",
+    "operand": "FF",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "RZ",
+    "operand": "C8",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SBB A",
+    "operand": "9F",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SBB B",
+    "operand": "98",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SBB C",
+    "operand": "99",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SBB D",
+    "operand": "9A",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SBB E",
+    "operand": "9B",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SBB H",
+    "operand": "9C",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SBB L",
+    "operand": "9D",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SBB M",
+    "operand": "9E",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SBI Data",
+    "operand": "DE",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "SHLD Address",
+    "operand": "22",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "SIM",
+    "operand": "30",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SPHL",
+    "operand": "F9",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "STA Address",
+    "operand": "32",
+    "bytes": "3"
+  },
+  {
+    "mnemonics": "STAX B",
+    "operand": "02",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "STAX D",
+    "operand": "12",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "STC",
+    "operand": "37",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SUB A",
+    "operand": "97",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SUB B",
+    "operand": "90",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SUB C",
+    "operand": "91",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SUB D",
+    "operand": "92",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SUB E",
+    "operand": "93",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SUB H",
+    "operand": "94",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SUB L",
+    "operand": "95",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SUB M",
+    "operand": "96",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "SUI Data",
+    "operand": "D6",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "XCHG",
+    "operand": "EB",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "XRA A",
+    "operand": "AF",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "XRA B",
+    "operand": "A8",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "XRA C",
+    "operand": "A9",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "XRA D",
+    "operand": "AA",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "XRA E",
+    "operand": "AB",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "XRA H",
+    "operand": "AC",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "XRA L",
+    "operand": "AD",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "XRA M",
+    "operand": "AE",
+    "bytes": "1"
+  },
+  {
+    "mnemonics": "XRI Data",
+    "operand": "EE",
+    "bytes": "2"
+  },
+  {
+    "mnemonics": "XTHL",
+    "operand": "E3",
+    "bytes": "1"
+  }
+]
