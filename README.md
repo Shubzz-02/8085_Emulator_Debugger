@@ -44,7 +44,7 @@ This project is made using [IntelliJ IDEA](https://www.jetbrains.com/idea/downlo
     
 #### Others
     -Simply copy [src] ans [res] folder to your project.
-    
+    -Make sure you download and import Gson jar file. 
 
 
 
@@ -64,8 +64,9 @@ Simply fork this repository and start committing for other operands of 8085.
  - Implementing stack.
  - Coding for stack pointer.
 
-License
-----
+## ScreenShots
 
-
+![Alt text](/ScreenShots/1.png "1.png")
+![Alt text](/ScreenShots/2.png "2.png")
+![Alt text](/ScreenShots/3.png "3.png")
 
