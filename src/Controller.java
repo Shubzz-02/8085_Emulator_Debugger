@@ -132,6 +132,7 @@ public class Controller implements Initializable {
             if (sAddress.getText() == null || sAddress.getText().isEmpty() || sDAddress.getText() == null || sDAddress.getText().isEmpty()) {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Enter Address");
+                alert.setHeaderText(null);
                 alert.setContentText("Address Empty!! Enter valid Address");
                 alert.show();
             } else {
@@ -140,17 +141,20 @@ public class Controller implements Initializable {
                 if (sa > 65535 || sa < 0 || da > 65535 || da < 0) {
                     Alert alert = new Alert(Alert.AlertType.ERROR);
                     alert.setTitle("Enter valid Address");
+                    alert.setHeaderText(null);
                     alert.setContentText("Addresses can not be less than 0 and greater than FFFF");
                     alert.show();
                 } else if (sa > 64534 || da > 64534) {
                     Alert alert = new Alert(Alert.AlertType.INFORMATION);
                     alert.setTitle("Info");
+                    alert.setHeaderText(null);
                     alert.setContentText("Address recommended less than FC18 ");
                     alert.show();
                 } else {
                     if ((sa + 1000) - da > 0) {
                         Alert alert = new Alert(Alert.AlertType.ERROR);
                         alert.setTitle("Enter valid Address");
+                        alert.setHeaderText(null);
                         alert.setContentText("Addresses Overlapping!! Take minimum diff of 1000 b/w two address");
                         alert.show();
                     } else {
@@ -172,6 +176,7 @@ public class Controller implements Initializable {
         } catch (Exception e) {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("Invalid Address");
+            alert.setHeaderText(null);
             alert.setContentText("Pleaase Enter a valid Address");
             alert.show();
         }
@@ -188,7 +193,7 @@ public class Controller implements Initializable {
             if (selectedFile != null) {
                 FileReader file = new FileReader(selectedFile);
                 char[] data = new char[300];
-                file.read(data);
+                int result = file.read(data);
                 String codet = "";
                 for (char c : data)
                     codet = codet.concat(String.valueOf(c));
@@ -197,7 +202,11 @@ public class Controller implements Initializable {
                 loadButton.setDisable(true);
             }
         } catch (Exception error) {
-
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Info");
+            alert.setHeaderText(null);
+            alert.setContentText("Unexpected Error!! Please Try Again");
+            alert.show();
         }
     }
 
@@ -662,6 +671,8 @@ public class Controller implements Initializable {
         // System.out.println("REG A= " + a);
         switch (result) {
             case "A":
+                a = 0;
+                accText.setText(String.format("%02X", Math.abs(a)));
                 i = i + Integer.parseInt(Populate.codeP[1][point]);
                 break;
             case "B":
