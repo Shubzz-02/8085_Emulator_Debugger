@@ -257,6 +257,7 @@ public class Controller implements Initializable {
         } else {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("Code Empty");
+            alert.setHeaderText(null);
             alert.setContentText("Please Enter code or load .asm file from disk");
             alert.show();
         }
@@ -606,6 +607,7 @@ public class Controller implements Initializable {
     private void hlt() {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Finished");
+        alert.setHeaderText(null);
         alert.setContentText("Debugging Complete");
         alert.show();
         contButton.setDisable(true);
@@ -623,11 +625,20 @@ public class Controller implements Initializable {
         int t = dSa;
         int kvb = 0;
         int sadd = Integer.parseInt(result.substring(0, result.length() - 1), 16);
-        while (t != sadd) {
-            kvb++;
-            t++;
+        if (sadd >= t && sadd <= t + 1000) {
+            while (t != sadd) {
+                kvb++;
+                t++;
+            }
+            storeData.set(kvb, new Data(String.format("%04X", sadd), accText.getText()));
+        } else {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Info");
+            alert.setHeaderText(null);
+            alert.setContentText(String.format("%04X", t) + " address not found in visible memory address! Output will not be visible ");
+            alert.show();
         }
-        storeData.set(kvb, new Data(String.format("%04X", t), accText.getText()));
+
 //        System.out.println("i =======" + i);
 //        System.out.println("POINT---------= " + Populate.codeP[1][point]);
         i = i + Integer.parseInt(Populate.codeP[1][point]);
