@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="363.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/8.0.211">
+    <children>
+        <ScrollPane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                    AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="527.0" prefWidth="598.0">
+                    <children>
+                        <Text layoutX="26.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="1. Invalid Address??" wrappingWidth="265.52880859375">
+                            <font>
+                                <Font name="Arial Black" size="17.0"/>
+                            </font>
+                        </Text>
+                        <TextArea editable="false" focusTraversable="false" layoutX="26.0" layoutY="66.0"
+                                  prefHeight="17.0" prefWidth="400.0" text="- Address range is from 0000 to FFFF."/>
+                        <Text layoutX="26.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="2. Address Overlapping??" wrappingWidth="265.52880859375">
+                            <font>
+                                <Font name="Arial Black" size="17.0"/>
+                            </font>
+                        </Text>
+                        <TextArea editable="false" focusTraversable="false" layoutX="26.0" layoutY="184.0"
+                                  prefHeight="17.0" prefWidth="400.0" text="- Keep diff of atleast 1000."/>
+                        <Text layoutX="26.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="3. Operands Not Working..." wrappingWidth="265.52880859375">
+                            <font>
+                                <Font name="Arial Black" size="17.0"/>
+                            </font>
+                        </Text>
+                        <TextArea editable="false" focusTraversable="false" layoutX="26.0" layoutY="288.0"
+                                  prefHeight="17.0" prefWidth="400.0"
+                                  text="- For Now only these operands work:-&#10;   i) MOV (all)&#10;   ii) MVI (all)&#10;   iii) SUB (all)&#10;   iv) LDA&#10;    v) JM&#10;   vi) CALL&#10;   vii) STA&#10;  viii) RET&#10;   ix) HLT"/>
+                        <Text layoutX="26.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="4. Code not Working.." wrappingWidth="265.52880859375">
+                            <font>
+                                <Font name="Arial Black" size="17.0"/>
+                            </font>
+                        </Text>
+                        <TextArea editable="false" focusTraversable="false" layoutX="26.0" layoutY="386.0"
+                                  prefHeight="17.0" prefWidth="400.0"
+                                  text="- Ensure that yur code ends with HLT operand."/>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>
