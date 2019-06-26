@@ -652,7 +652,7 @@ public class Controller implements Initializable {
             while (Populate.codeP[0][che] != null) {
                 // System.out.println("Populate.codeP[0][che] = "+Populate.codeP[0][che]+" && result = "+result);
                 if (Populate.codeP[0][che].contains(result) && che != point) {
-                    System.out.println("Found at= " + che);
+                    //  System.out.println("Found at= " + che);
                     break;
                 }
                 che++;
