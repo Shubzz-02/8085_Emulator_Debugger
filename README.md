@@ -39,7 +39,7 @@ Java 1 to Java 7 and Java 11 is not supported. Java 9 and Java 10 not tested.
 This project is made using [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=windows). 
 
 #### IntelliJ IDEA
-    - Simply download the sorce code and Import in IntelliJ IDEA.
+    - Simply download the source code and Import in IntelliJ IDEA.
     - Make sure your project contains correct path of Gson library.
     
 #### Others
